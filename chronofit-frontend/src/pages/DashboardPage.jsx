@@ -149,7 +149,7 @@ Phong cách: hợp vai trò dẫn dắt, làm nhanh – gọn đầu ngày.
 Giờ vàng làm việc: 10:00–16:00
 Sáng: làm việc nhẹ để “lên máy”
 Ngủ – dậy gợi ý: cố lên giường trước 00:00, dậy ~08:00
-Mẹo: ưu tiên “vệ sinh giấc ngủ” (phòng tối, yên, ít kích thích).Tôi có đồng hồ sinh học là ${typeName}. Bây giờ là ${currentHour}:${currentMin}. Hãy đóng vai một trợ lý sức khỏe, viết MỘT câu ngắn gọn (dưới 20 chữ), vui vẻ bằng tiếng Việt để khuyên tôi nên làm cái gì, ăn món gì hoặc nghỉ ngơi ra sao vào đúng giờ này. Đừng giải thích thêm.`;
+Mẹo: ưu tiên “vệ sinh giấc ngủ” (phòng tối, yên, ít kích thích).Tôi có đồng hồ sinh học là ${typeName}. Bây giờ là ${currentHour}:${currentMin}. Hãy đóng vai một trợ lý sức khỏe, viết HAI câu ngắn gọn (dưới 30 chữ), vui vẻ bằng tiếng Việt để khuyên tôi cụ thể nên làm cái gì, ăn món gì hoặc nghỉ ngơi ra sao vào đúng giờ này để phù hợp với ChoronoType của tôi. Đừng giải thích thêm.`;
 
       const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
         method: 'POST',
